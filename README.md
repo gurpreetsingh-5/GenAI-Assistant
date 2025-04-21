@@ -1,6 +1,9 @@
 # GenAI-Assistant
 ## 1. Create Aws ec2 medium instance with 20gb stroage
 ### 2.	Sudo apt update
+```
+sudo apt update
+```
 ### 3.	Create virtual environment 
 cd /backend
 ```
