@@ -35,7 +35,7 @@ cd /backend
 ```
 OPEN_API_KEY:sksvcacctdh4ECyHYy0oZRiFc2vmBn0s2xHvwSJNXQly2M1L0fTwFD90lD1UgKHeSSBxo2GPSc50CX2yTLT3BlbkFJopihJ5WwNWSYwyLMZhquZ_I1rvSM7Q3tRLetXuZCfVMh7uBVPk2ns9FEVlcQAwB4OxHtrLkwA
 ```
-### -important note : download new api key
+###  *important note* : download new api key
 
 ### 6. create .env file in frontend directory
 cd /frontend
