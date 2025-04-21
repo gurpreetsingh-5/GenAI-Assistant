@@ -81,7 +81,11 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 docker-compose up
 ```
-
+### 4. Run npm
+cd /frontend
+```
+npm run build
+```
 
 
 
