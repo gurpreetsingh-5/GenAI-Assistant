@@ -34,8 +34,9 @@ npm -v # Should print "10.9.2".
 cd /backend
 ```
 OPEN_API_KEY:sksvcacctdh4ECyHYy0oZRiFc2vmBn0s2xHvwSJNXQly2M1L0fTwFD90lD1UgKHeSSBxo2GPSc50CX2yTLT3BlbkFJopihJ5WwNWSYwyLMZhquZ_I1rvSM7Q3tRLetXuZCfVMh7uBVPk2ns9FEVlcQAwB4OxHtrLkwA
--important note : download new api key
 ```
+### -important note : download new api key
+
 ### 6. create .env file in frontend directory
 cd /frontend
 
@@ -43,7 +44,7 @@ cd /frontend
 NEXT_PUBLIC_API_BASE_URL=http://backend:8000
 ```
 ### 7. install 
-Cd /backend
+cd /backend
 
 ```
 pip install –r reuirement.txt
