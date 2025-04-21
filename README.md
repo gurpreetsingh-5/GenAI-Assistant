@@ -2,11 +2,11 @@
 ## 1. Create Aws ec2 medium instance with 20gb stroage
 ### 2.	Sudo apt update
 ### 3.	Create virtual environment 
+cd /backend
 ```
-	sudo apt install –y python3 python3-pip-venv
-	cd /backend
-	python venv/bin/activate
-	source venv/bin/activate
+sudo apt install –y python3 python3-pip-venv
+python venv/bin/activate
+source venv/bin/activate
 
 ```
 ### 4.	install node
@@ -28,19 +28,21 @@ nvm current # Should print "v22.14.0".
 npm -v # Should print "10.9.2".
 ```
 ### 5. create .env file in backend directory
-```
 cd /backend
+```
 OPEN_API_KEY:sksvcacctdh4ECyHYy0oZRiFc2vmBn0s2xHvwSJNXQly2M1L0fTwFD90lD1UgKHeSSBxo2GPSc50CX2yTLT3BlbkFJopihJ5WwNWSYwyLMZhquZ_I1rvSM7Q3tRLetXuZCfVMh7uBVPk2ns9FEVlcQAwB4OxHtrLkwA
 -important note : download new api key
 ```
 ### 6. create .env file in frontend directory
-```
 cd /frontend
+
+```
 NEXT_PUBLIC_API_BASE_URL=http://backend:8000
 ```
 ### 7. install 
-```
 Cd /backend
+
+```
 pip install –r reuirement.txt
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
